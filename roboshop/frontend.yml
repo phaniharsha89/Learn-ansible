@@ -2,8 +2,8 @@
   hosts: all
   tasks: 
      - name: Installing the  Nginx 
-  ansible.builtin.yum:
-    name: nginx
-    state: latest
+       ansible.builtin.yum:
+          name: nginx
+          state: latest
 
 
