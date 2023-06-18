@@ -11,7 +11,7 @@
        ansible.builtin.file:
           path: /usr/share/nginx/html/
           state: absent
-          recurse: yes
+        
 
      - name: Creating a directory
        ansible.builtin.file:
